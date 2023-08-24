@@ -1,0 +1,730 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+header {
+    background-color: #1e172f;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: baseline;
+}
+
+header img {
+    width: 100%;
+    margin-left: 80%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    list-style: none;
+    align-items: center;
+    color: white;
+    margin: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+#descargar {
+    background: linear-gradient(to right, rgb(82, 31, 121), rgb(41, 64, 184));
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.parte1 {
+    height: 100vh;
+    display: flex;
+
+}
+
+.izquierda {
+    background-color: #1e172f;
+    width: 60%;
+}
+
+.titulo-Principal {
+    font-size: 5em;
+    color: white;
+    margin: 117px 7px 27px 244px;
+}
+
+.izquierda p {
+    color: white;
+    margin: 0px 20px 59px 244px;
+    font-size: 18px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #939395af;
+    border-radius: 4px;
+    width: 27vw;
+    height: 6vh;
+    margin-left: 246px;
+    padding: 10px;
+}
+
+#blanco {
+    color: #f5439e;
+    background-color: rgb(255, 255, 255);
+    height: 6vh;
+    width: 13vw;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#features {
+    color: #ffffff;
+    background-color: #1e172f;
+    border: 1px solid #ffffffaf;
+    height: 6vh;
+    width: 13vw;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.derecha {
+    background: url(../Catalina_Osorio_Andrade_-_imagenes/hojasFondo.jpg);
+    background-size: cover;
+    width: 50vw;
+    height: 100vh;
+}
+
+.derecha img {
+    height: 70vh;
+    margin: 95px 0px 0px 100px;
+}
+
+.fonc {
+    color: #ee5487;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background-color: #f1f2f7;
+}
+
+.parte2 {
+    display: flex;
+    align-items: center;
+    background-color: #f1f2f7;
+    padding: 3%;
+}
+
+.computador img {
+    width: 60%;
+    padding-left: 25%;
+}
+
+.lista h3 {
+    color: #eb4079c9;
+    font-size: 30px;
+}
+
+.lista p {
+    padding-right: 35%;
+}
+
+.lista h4 {
+    color: #eb4079c9;
+    font-size: 20px;
+}
+
+.lista ul li {
+    padding-left: 2rem;
+    background-image: url(../Catalina_Osorio_Andrade_-_imagenes/chulo.png);
+    background-position: 0 50%;
+    background-size: 1 2.3rem 1.3rem;
+    background-repeat: no-repeat;
+    list-style: none;
+}
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f172f;
+    text-align: center;
+    color: #fff;
+}
+
+.plans h2 {
+    padding: 2%;
+}
+
+.plans p {
+    width: 60%;
+}
+
+.parte3 {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: #1f172f;
+    padding: 4%;
+}
+
+.hoja {
+    width: 30%;
+    background-color: #fff;
+    text-align: center;
+    line-height: 2;
+    border-radius: 3px;
+}
+
+.hoja figure h5 {
+    color: #ee5487;
+    font-size: medium;
+}
+
+.hoja figure .azul {
+    color: #263247;
+}
+
+.gris {
+    padding: 8px;
+    background-color: rgba(202, 198, 198, 0.253);
+}
+
+.cero {
+    font-size: 30px;
+}
+
+.hoja p {
+    padding: 10%;
+}
+
+.iconoMover {
+    margin: 2px 23px 2px 2px;
+}
+
+.lista-personalizada1 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 5em;
+}
+
+.subscribe {
+    background-color: rgba(202, 198, 198, 0.253);
+    padding: 8px;
+}
+
+.subscribe button {
+    background-color: #ee5487;
+    border: none;
+    padding: 15px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 90%;
+}
+
+.morado {
+    background-color: rgba(202, 198, 198, 0.253);
+    padding: 8px;
+}
+
+.morado button {
+    background-color: rgb(38, 15, 85);
+    border: none;
+    padding: 15px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 90%;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 25px 0 25px 0;
+    gap: 520px;
+}
+
+footer span {
+    width: 180%;
+}
+
+.rosa {
+    color: #ee5487;
+}
+
+.redes img {
+    width: 5%;
+    padding: 4px;
+}
+
+@media screen and (min-width:352px) and (max-width:480px) {
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header div {
+        object-fit: contain;
+    }
+
+    header img {
+        margin: 0 auto;
+        height: 30px;
+        height: 40px;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul {
+        width: 95%;
+    }
+
+    header nav ul li {
+        width: 20px;
+        font-size: 10px;
+    }
+
+    #descargar {
+        padding: 4px;
+        font-size: 10px;
+    }
+
+    .parte1 {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .izquierda {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+    }
+
+    .titulo-Principal {
+        font-size: 2rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .izquierda p {
+        margin: 10px auto;
+        text-align: center;
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .botones {
+        margin: 0 auto;
+        padding: 3px;
+        width: 60%;
+        justify-content: unset;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+
+    .botones button {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    #blanco {
+        height: 100%;
+        width: 100px;
+        font-size: 10px;
+    }
+
+    #features {
+        width: 45%;
+        height: 100%;
+        font-size: 10px;
+    }
+
+    .derecha {
+        width: 100%;
+        height: 30%;
+    }
+
+    .derecha img {
+        object-fit: contain;
+        height: 300px;
+        margin: 10% 29% 10%;
+    }
+
+    .fonc {
+        padding: 30px;
+        font-size: 20px;
+    }
+
+    .parte2 {
+        width: 94%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .computador {
+        width: 100%;
+    }
+
+    .computador img {
+        padding-left: 20%;
+    }
+
+    .lista {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
+
+    .lista p {
+        padding: 0;
+    }
+
+    .lista ul li {
+        text-align: start;
+        padding-left: 27%;
+        background-position: 60px;
+    }
+
+    .plans {
+        width: 100%;
+    }
+
+    .plans h2 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .plans p {
+        width: 80%;
+    }
+
+    .parte3 {
+        width: 92%;
+        flex-direction: column;
+    }
+
+    .hoja {
+        text-align: center;
+        width: 80%;
+        margin: 15px;
+    }
+
+    .lista-personalizada1 {
+        padding-left: 50px;
+    }
+
+    footer {
+        width: 100%;
+        gap: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer span {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header div {
+        object-fit: contain;
+    }
+
+    header img {
+        margin: 0 auto;
+        width: 150px;
+        height: 60px;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    .parte1 {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .izquierda {
+        width: 100%;
+    }
+
+    .titulo-Principal {
+        font-size: 50px;
+        margin: 0;
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .izquierda p {
+        margin: 0;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 25px;
+        padding: 10px;
+    }
+
+    .botones {
+        width: 60%;
+        margin: 15px auto 30px auto;
+        padding-bottom: 6%;
+    }
+
+    #blanco {
+        height: 150%;
+        width: 48%;
+    }
+
+    #features {
+        height: 150%;
+        width: 48%;
+    }
+
+    .derecha {
+        width: 100%;
+        height: 80%;
+    }
+
+    .derecha img {
+        object-fit: contain;
+        margin: 20px 145px 20px;
+    }
+
+    .parte2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .computador img {
+        padding-left: 3%;
+    }
+
+    .lista {
+        text-align: center;
+    }
+
+    .lista p {
+        padding: 0px 40px 0 40px;
+    }
+
+    .lista ul li {
+        text-align: start;
+        padding-left: 35%;
+        background-position: 115px;
+    }
+
+    .plans {
+        width: 100%;
+    }
+
+    .plans p {
+        width: 80%;
+    }
+
+    .parte3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hoja {
+        text-align: center;
+        width: 80%;
+        margin: 20px;
+    }
+
+    footer {
+        width: 100%;
+        gap: 0;
+
+    }
+
+    .redes {
+        width: 100%;
+    }
+
+    .redes img {
+        width: 20px;
+    }
+
+    footer span {
+        width: 80%;
+        padding-left: 10%;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:920px) {
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    header img {
+        margin: 0;
+    }
+
+    header div {
+        object-fit: contain;
+    }
+
+    header nav ul li {
+        margin: 16px;
+    }
+
+    .parte1 {
+        width: 100%;
+    }
+
+    .izquierda {
+        width: 50%;
+    }
+
+    .titulo-Principal{
+        font-size: 4rem;
+        margin: 40% 0 10px 70px;
+    }
+
+    .izquierda p{
+        margin: 0;
+        padding: 35px;
+    }
+
+    .botones {
+        margin: 0 auto;
+        width: 65%;
+    }
+
+    #blanco {
+        width: 48%;
+    }
+
+    #features{
+        width: 48%;
+    }
+
+    .lista p{
+        padding-right: 50px;
+    }
+
+    .plans p{
+        width: 85%;
+    }
+
+    .lista-personalizada1{
+        padding-left: 15px;
+    }
+    
+    footer{
+        width: 100%;
+        gap: 100px;
+    }
+
+    footer span{
+        padding-left: 100px;
+    }
+
+    .rosa{
+        padding: 0;
+    }
+}
+
+@media screen and (min-width:921px) and (max-width:1279px){
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    header img{
+        margin: 0;
+    }
+
+    .izquierda,.derecha{
+        width: 50%;
+    }
+
+    .titulo-Principal{
+        margin: 25% 0 0 80px ;
+    }
+
+    .izquierda p{
+        margin: 0;
+        padding: 20px 40px 30px 60px;
+    }
+
+    .botones{
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    #blanco{
+        width: 50%;
+        height: 110%;
+    }
+
+    #features {
+        width: 48%;
+        height: 110%;
+    }
+
+    .plans p{
+        width: 85%;
+    }
+
+    .lista-personalizada1{
+        padding-left: 40px;
+    }
+
+    footer{
+        width: 100%;
+        gap: 150px;
+    }
+}
